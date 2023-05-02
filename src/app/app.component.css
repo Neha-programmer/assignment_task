@@ -1,0 +1,118 @@
+.card-styling {
+    border-radius: 10px;
+    background:#FDFCFC;
+    box-shadow:0px 3px 12px rgba(0,0,0,0.11);
+}
+
+.search-div{
+    background-color:#FFAE42;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left:8px;
+    padding-top:8px;
+}
+
+.result-div{
+    background-color:#0000FF;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding-left:8px;
+    padding-top:8px;
+}
+
+.main-card{
+    background-color:#C0D8FA;
+}
+
+.button-styling{
+    border-radius:6px;
+    display: flex;
+    align-items: center;
+}
+
+.margin-styling{
+    margin-left:7px;
+}
+
+.search-buttons{
+    display:flex;
+    padding:8px;
+}
+
+.input-div{
+    background-color:#C1ECFA;
+}
+
+.flex-styling{
+    display:flex;
+    justify-content: space-between;
+}
+
+.mdc-data-table__header-row{
+    font-family:'Epilogue';
+    font-style:normal;
+    font-weight:500;
+    font-size:16px;
+    line-height:150%;
+    color:#000000;
+    background:#98AFC7;
+    word-break:break-word;
+    height: 25px;
+}
+
+.mdc-data-table__row{
+    font-family:'Epilogue';
+    font-style:normal;
+    font-weight:400;
+    font-size:14px;
+    line-height:150%;
+    color:#000000;
+    word-break:break-word;
+    height: 25px;
+}
+
+.mdc-data-table__cell, .mdc-data-table__header-cell {
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+}
+
+.result-text{
+    color:white;
+}
+
+.table-responsive{
+    overflow:auto;
+}
+
+.final-card{
+    background-color:#99C4D2;
+}
+
+.final-buttons{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:20px;
+}
+
+.margin-right{
+    margin-right:40px;
+}
+
+.search-by-card{
+    background-color:#f0f8ff;
+    width:40%;
+}
+
+.search-by-div{
+    display: flex;
+    justify-content: space-around;
+    padding:8px;
+}
+
+.card-width{
+    width:58%;
+}
+
+.input-field{
+    width:100%;
+}
