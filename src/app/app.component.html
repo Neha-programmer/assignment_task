@@ -47,7 +47,7 @@
             </div>
             <div class="input-div search-buttons">
               <input class="mt-3 mb-3 input-field" matInput placeholder="Search" [(ngModel)]="searchByTextValue"
-                (keyup)="search($event)">
+              (keydown)="onKeydown($event)" (keyup)="search($event)">
               <button class="button-styling mt-3 mb-3 margin-styling">
                 <mat-icon>search</mat-icon>
                 <span>Search</span>

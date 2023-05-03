@@ -37,6 +37,7 @@
 .search-buttons{
     display:flex;
     padding:8px;
+    justify-content: space-between;
 }
 
 .input-div{
